@@ -4,11 +4,11 @@
   "redirects": [
     {
       "source": "/analytics",
-      "destination": "https://analytics.umami.is/share/hUOE7PeyHAnRzWwQ/nekomoe"
+      "destination": "https://analytics.us.umami.is/websites/5032fad1-ca41-4242-aa9f-913e7054a5c4"
     },
     {
       "source": "/github",
-      "destination": "https://github.com/ghiwwwan/nekomoe"
+      "destination": "https://github.com/shallow/nekomoe"
     }
   ]
 }
