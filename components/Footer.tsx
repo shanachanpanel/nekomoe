@@ -4,7 +4,7 @@ import Link from "next/link";
 import { EyeOpenIcon } from "@radix-ui/react-icons";
 import { Suspense } from "react";
 
-const UMAMI_TOKEN = process.env.UMAMI_TOKEN;
+const RIZA_TOKEN = process.env.RIZA_TOKEN;
 
 const Footer = () => {
   return (
@@ -39,11 +39,11 @@ export default Footer;
 
 const ActiveViews = async () => {
   const response = await fetch(
-    "https://api.umami.is/v1/websites/a2f6a39d-27c9-4c55-9654-ebb1b3e73353/active",
+    "https://analytics.us.umami.is/websites/5032fad1-ca41-4242-aa9f-913e7054a5c4/active",
     {
       headers: {
         Accept: "aplication/json",
-        "x-umami-api-key": UMAMI_TOKEN as string,
+        "x-umami-api-key": RIZA_TOKEN as string,
       },
       next: { revalidate: 60 },
     }
