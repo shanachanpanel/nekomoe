@@ -8,7 +8,7 @@ export const runtime = "edge";
 export async function GET(req: Request, { params }: { params: { anime: string[] } }) {
   const animeId = `${params.anime[0]}/${params.anime[1]}/${params.anime[2]}`
   try {
-    const rawResponse = await fetch(`${baseURL}/${animeId}`, {
+    const rawResponse = await fetch(`${baseURL}/wibudesu/ghibli${page}`, {
       headers: {
         "User-Agent":
           "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
