@@ -10,7 +10,7 @@ export async function GET(req: Request) {
   const query = params.searchParams.get('query')
   const order_by = params.searchParams.get('order_by')
   try {
-    const rawResponse = await fetch(`${baseURL}/anime?search=${query}&order_by=${order_by || "oldest"}`, {
+    const rawResponse = await fetch(`${baseURL}/kuramanime/search?=${query}&order_by=${order_by || "oldest"}`, {
       headers: {
         "User-Agent":
           "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
