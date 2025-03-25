@@ -17,13 +17,13 @@ const navItems = [
   {
     id: "1",
     title: "On Going",
-    href: "/ongoing",
+    href: "/otakudesu/ongoing",
     icons: <RocketIcon className="h-5 w-5 mr-4" />,
   },
   {
     id: "2",
     title: "Finished",
-    href: "/finished",
+    href: "/samehadaku/completed",
     icons: <LightningBoltIcon className="h-5 w-5 mr-4" />,
   },
   {
@@ -35,7 +35,7 @@ const navItems = [
   {
     id: "4",
     title: "Schedule",
-    href: "/schedule",
+    href: "/samehadaku/schedule",
     icons: <CalendarIcon className="h-5 w-5 mr-4" />,
   },
   {
