@@ -37,7 +37,7 @@ const ScheduleNav = () => {
   return (
     <ul className="grid grid-cols-4 md:grid-cols-8 gap-2">
       <li>
-        <Link href={`samehadaku/schedule`}>
+        <Link href={`/samehadaku/schedule`}>
           <span
             className={cn(
               buttonVariants({ variant: "ghost", size: "sm" }),
@@ -50,7 +50,7 @@ const ScheduleNav = () => {
       </li>
       {items.map((item) => (
         <li key={item.title}>
-          <Link href={`samehadaku/schedule/${item.value}`}>
+          <Link href={`/samehadaku/schedule/${item.value}`}>
             <span
               className={cn(
                 buttonVariants({ variant: "ghost", size: "sm" }),
