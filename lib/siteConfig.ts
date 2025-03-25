@@ -1,5 +1,5 @@
 const siteConfig = {
-  scraptUrl: "https://wibudesu.co/"
+  scraptUrl: "https://otakudesu.cloud", "https://samehadaku.mba"
 }
 
 export default siteConfig
